@@ -74,15 +74,16 @@ main .box .top-scorers {
 }
 
 table thead th {
-  position: sticky;
   font-size: 20px;
   top: 0;
   color: white;
   z-index: 2;
 }
 
+tr:not(:last-child) {
+  border-bottom: 1px solid #2a2a2a;
+}
 th,
 td {
-  border-bottom: 1px solid #2a2a2a;
-  padding: 10px;
+  padding: 5px;
 }
