@@ -57,10 +57,9 @@ function drawTable(data) {
     document.getElementById('myTable').style.display = 'table';
 }
 
-// تشغيل الدالة فور تحميل الصفحة
-$(document).ready(function() {
+
     loadData();
-});
+
 
 // تحديث تلقائي كل دقيقة
 setInterval(loadData, 60000);
