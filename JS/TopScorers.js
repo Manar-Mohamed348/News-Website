@@ -15,12 +15,12 @@ function fetchTopScorers(data) {
   for (var i = 0; i < data.length; i++) {
     var row = `
       <tr>
-        <td>${data[i].rank}</td>
-        <td>${data[i].name}</td>
-        <td>${data[i].team}</td>
-        <td>${data[i].goals}</td>
-        <td>${data[i].assists}</td>
-        <td>${data[i].penalties}</td>
+      <td>${data[i].penalties}</td>
+      <td>${data[i].assists}</td>
+      <td>${data[i].goals}</td>
+      <td>${data[i].team}</td>
+      <td>${data[i].name}</td>
+      <td>${data[i].rank}</td>
       </tr>
     `;
 
@@ -45,9 +45,9 @@ function fetchBestAttack(data) {
   for (var i = 0; i < data.length; i++) {
     var row = `
            <tr>
-           <td>${data[i].rank}</td>
-           <td>${data[i].team}</td>
            <td>${data[i].goals}</td>
+           <td>${data[i].team}</td>
+           <td>${data[i].rank}</td>
            </tr>
            `;
 
@@ -72,9 +72,9 @@ function fetchBestDefense(data) {
   for (var i = 0; i < data.length; i++) {
     var row = `
     <tr>
-    <td>${data[i].rank}</td>
-    <td> ${data[i].team}</td>
     <td>${data[i].conceded}</td>
+    <td> ${data[i].team}</td>
+    <td>${data[i].rank}</td>
     </tr>
              `;
 

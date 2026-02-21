@@ -13,7 +13,7 @@ body {
   font-family: "Cairo", sans-serif;
 }
 .container header nav {
-  background-color: #252149;
+  background-color: #2e445e;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 10px;
-  color: rgb(165, 162, 162);
+  color: rgb(185, 183, 183);
 }
 main .box {
   background: linear-gradient(135deg, #4a627a, #2e445e);
@@ -65,7 +65,7 @@ h2 {
   font-size: 30px;
 }
 table {
-  text-align: left;
+  text-align: right;
   width: 100%;
   border-collapse: collapse;
 }
